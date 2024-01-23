@@ -32,17 +32,17 @@ public class Order {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	int order_no;
-	
-	@Column(length = 30)
+	int orderNo;
+
+	@Column(length = 30, nullable = true)
 	String customerName;
-	
-	
-	@DateTimeFormat(pattern = "yyyy-MM-dd")
-	LocalDate orderDate;
-	
-	@Column(length = 100)
+
+	@Column(length = 100, nullable = true)
 	String shipAddress;
+
+    @DateTimeFormat(pattern = "yyyy-MM-dd")
+	@Column(nullable = true)
+    LocalDate orderDate;
 	
 	
 }

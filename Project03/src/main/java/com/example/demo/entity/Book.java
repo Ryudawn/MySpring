@@ -28,16 +28,16 @@ import lombok.ToString;
 public class Book {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	int book_No;
-	
-	@Column
-	int price;
-	
-	@Column(length = 100)
-	String publisher;
-	
+	int bookNo;
+
 	@Column(length = 30, nullable = false)
 	String title;
+
+	@Column(length = 100, nullable = true)
+	String publisher;
+
+	@Column(nullable = true)
+	int price;
 	
 }
 

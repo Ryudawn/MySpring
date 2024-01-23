@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<th:block th:each = "dto: ${list}">
+		<p th:if = "${dto.no==2}" th:text = "${dto}"></p>
+	</th:block>
+
+</body>
+</html>

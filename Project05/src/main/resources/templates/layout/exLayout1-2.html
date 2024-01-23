@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+    .header {
+        height: 20vh;
+        background-color: pink;  /* pink로 변경 */
+    }
+    .content {
+        height: 30vh;
+        background-color: lightgray;
+    }
+    .footer {
+        height: 10vh;
+        background-color: green;
+    }
+</style>
+</head>
+<body>
+	<div class="header">
+		<h1>HEADER</h1>
+	</div>
+	<div class="content" >
+		<th:block th:replace="~{Layout/fragment :: frag2}"></th:block>
+	</div>
+	<div class="footer">
+		<h1>FOOTER</h1>
+	</div>
+</body>
+</html>
