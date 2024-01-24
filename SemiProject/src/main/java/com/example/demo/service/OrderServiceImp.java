@@ -60,6 +60,8 @@ public class OrderServiceImp implements OrderService{
 
 			entity.setPname(dto.getPname());
 			entity.setPrice(dto.getPrice());
+			entity.setName(dto.getName());
+			entity.setAddress(dto.getAddress());
 
 			repository.save(entity);
 		}
