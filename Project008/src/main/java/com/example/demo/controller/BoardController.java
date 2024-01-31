@@ -21,11 +21,7 @@ public class BoardController {
 	@Autowired
 	BoardService service;
 	
-	//메인화면
-	@GetMapping("/main")
-	public void main() {
-		
-	}
+	
 	
 	@GetMapping("/list")
 	public void list(@RequestParam(defaultValue = "0", name="page") int page, Model model) {

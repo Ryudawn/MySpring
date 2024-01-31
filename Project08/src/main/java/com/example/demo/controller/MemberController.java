@@ -49,4 +49,12 @@ public class MemberController {
 		}
 	}
 	
+	@GetMapping("/read") 
+	public void read(@RequestParam(defaultValue = "0", name = "page") String id, int page, Model model) {
+		
+		MemberDTO dto = service.read(id);
+		
+		model.addAttribute("dto",dto);
+		model.addAttribute("page",page);
+	}
 }
