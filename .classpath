@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="demo/src/main/java"/>
+	<classpathentry kind="src" path="demo/src/test/java"/>
+	<classpathentry kind="src" path="Project008/src/main/java"/>
+	<classpathentry kind="src" path="Project008/src/test/java"/>
+	<classpathentry kind="src" path="Project009/src/main/java"/>
+	<classpathentry kind="src" path="Project009/src/test/java"/>
+	<classpathentry kind="src" path="Project02/src/main/java"/>
+	<classpathentry kind="src" path="Project02/src/test/java"/>
+	<classpathentry kind="src" path="Project03/src/main/java"/>
+	<classpathentry kind="src" path="Project03/src/test/java"/>
+	<classpathentry kind="src" path="Project04/src/main/java"/>
+	<classpathentry kind="src" path="Project04/src/test/java"/>
+	<classpathentry excluding="com/example/demo/controller/" kind="src" path="Project05/src/main/java"/>
+	<classpathentry kind="src" path="Project05/src/main/java/com/example/demo/controller"/>
+	<classpathentry kind="src" path="Project05/src/test/java"/>
+	<classpathentry kind="src" path="Project06/src/main/java"/>
+	<classpathentry kind="src" path="Project06/src/test/java"/>
+	<classpathentry kind="src" path="Project07/src/main/java"/>
+	<classpathentry kind="src" path="Project07/src/test/java"/>
+	<classpathentry kind="src" path="Project08/src/main/java"/>
+	<classpathentry kind="src" path="Project08/src/test/java"/>
+	<classpathentry kind="src" path="Project2/lib/src/main/java"/>
+	<classpathentry kind="src" path="Project2/lib/src/test/java"/>
+	<classpathentry kind="lib" path="demo/gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="lib" path="Project008/gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="lib" path="Project009/gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="lib" path="Project02/gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="lib" path="Project03/gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="lib" path="Project04/gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="lib" path="Project05/gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="lib" path="Project06/gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="lib" path="Project07/gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="lib" path="Project08/gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="lib" path="Project2/bin/gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="lib" path="Project2/gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="output" path="Project2/lib/bin/main"/>
+</classpath>

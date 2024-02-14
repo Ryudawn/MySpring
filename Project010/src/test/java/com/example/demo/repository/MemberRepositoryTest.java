@@ -24,7 +24,7 @@ public class MemberRepositoryTest {
 		List<Member> list = new ArrayList<>();
 		
 		for(int i = 1; i<=30; i++) {
-			list.add(new Member("user"+i, "1234", "둘리"));
+			list.add(new Member("user" + i,"1234" , "user" + i, "user"));
 		}
 		repository.saveAll(list);
 	}

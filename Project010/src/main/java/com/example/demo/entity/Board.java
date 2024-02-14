@@ -25,14 +25,14 @@ import lombok.ToString;
 public class Board extends BaseEntity{
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	int no;
+	private int no;
 	
 	@Column(length = 100, nullable = false)
-	String title;
+	private String title;
 	
 	@Column(length = 1500, nullable = false)
-	String content;
+	private String content;
 	
 	@ManyToOne
-	Member writer;
+	private Member writer;
 }
